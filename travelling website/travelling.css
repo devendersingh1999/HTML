@@ -1,0 +1,99 @@
+h1{
+  margin: 0;
+  padding-top: 10px;
+  text-align: center;
+  font-size:300%;
+  width: auto;
+  color: black; 
+background-color: lightgray;
+}
+.nava{
+  text-align: end;
+ font-size:150%;
+ padding: 0 0 0 0.2%;
+ width: auto;
+ background-color: lightgrey;
+}
+.topnav{
+  overflow: hidden;
+    background-color: lightgray;
+    float: none ; 
+    padding: 10px;
+    /* text-decoration: none; */
+    font-size: 35px;
+    color: black;
+    
+}
+.topnav a:hover{
+  color: black;
+  
+}
+.topnav a:active{
+  background-color: #03160f;
+  color: white;
+}
+a{
+  text-decoration: none;
+}
+.search-container {
+  float: right;
+  text-align: center;
+  padding: 0px;
+  margin: 0px;
+}
+.navbar:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.topnav input[type=text] {
+  padding: 8px;
+ background-color: gainsboro;
+  font-size: 20px;
+  border: none;
+  border-radius: 20px;
+
+}
+.topnav .search-container button {
+  padding: 6px 10px;
+  margin-top: 8px;
+  margin-right: 16px;
+  font-size: 17px;
+  cursor: pointer;
+  border-radius: 25px;
+
+}
+.pictures, figure{
+        width: auto;
+        height: auto;  
+        display:inline-block;
+        margin: 0 ;
+        padding: 18px;
+        background-color: lightcyan;
+}
+img{
+  /* transform: rotate(45deg); */
+  margin: none;
+border-radius: 25px;
+}
+  footer{
+    text-align: center;
+    background-color: gainsboro;
+  padding: 10px;
+  color: black;
+  }
+  figcaption{
+    text-align: center;
+
+   
+  }
+  form{
+    background-color:lightgrey;
+  }
+  body{
+    margin: 0;
+  }
+/* form>label[for="name"]{
+  margin: 10px;
+} */
+  
